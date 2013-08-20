@@ -1,0 +1,17 @@
+
+
+import javax.swing.JFrame;
+import javax.swing.WindowConstants;
+
+
+public class SuperPaintTest
+{
+  public static void main( String []args )
+  {
+    // make the frame half the height and width
+    DrawFrame frame = new DrawFrame();
+    frame.setSize( 900, 700 );
+    frame.setLocationRelativeTo( null ); //centers the JFrame
+    frame.setVisible( true );
+  }
+}
